@@ -1,0 +1,7 @@
+name: harness-eval
+version: 0.1.0
+description: "Outcome scoring for Hermes's own harness: records tool results and skill loads, flags skills whose loads are followed by failures, queues them for revision and archives repeat failures through the curator. Local only: one SQLite file per profile, no network."
+author: "Rico (@rmaviswholesale-create)"
+provides_hooks:
+  - post_tool_call
+  - on_skill_lifecycle
