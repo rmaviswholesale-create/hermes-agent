@@ -1,0 +1,10 @@
+{
+  "enabledMcpjsonServers": [
+    "context-mode"
+  ],
+  "permissions": {
+    "allow": [
+      "mcp__context-mode"
+    ]
+  }
+}
