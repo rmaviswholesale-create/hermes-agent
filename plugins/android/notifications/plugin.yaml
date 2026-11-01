@@ -1,0 +1,7 @@
+name: android-notifications
+version: 0.1.0
+description: "Read the notifications on your Android phone (lead apps, missed calls, bank alerts) and push a notification back to it, through Termux:API over SSH."
+author: "Rico (@rmaviswholesale-create)"
+provides_tools:
+  - android_notifications_list
+  - android_notify

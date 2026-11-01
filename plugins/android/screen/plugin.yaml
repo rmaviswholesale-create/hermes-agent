@@ -1,0 +1,8 @@
+name: android-screen
+version: 0.1.0
+description: "See and drive your Android phone's screen over ADB: screenshots, a text dump of what is on screen with tap targets, and tap/swipe/type/launch-app. Input is off until HERMES_ANDROID_ALLOW_CONTROL=1 and every action is audited."
+author: "Rico (@rmaviswholesale-create)"
+provides_tools:
+  - android_screenshot
+  - android_screen_read
+  - android_input

@@ -1,0 +1,10 @@
+name: android-field
+version: 0.1.0
+description: "Field kit for driving-for-dollars and deal paperwork: phone GPS location, recent camera photos, file pull/push between the phone and Hermes, and the phone clipboard. Works over ADB or Termux SSH."
+author: "Rico (@rmaviswholesale-create)"
+provides_tools:
+  - android_location
+  - android_files_list
+  - android_file_pull
+  - android_file_push
+  - android_clipboard

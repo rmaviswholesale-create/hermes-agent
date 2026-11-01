@@ -1,0 +1,7 @@
+name: android-sms
+version: 0.1.0
+description: "Read and send SMS on your Android phone from wherever Hermes runs (Modal, VPS), through Termux:API over SSH. Sending is off until HERMES_ANDROID_ALLOW_SEND=1 and capped per day; every send is audited."
+author: "Rico (@rmaviswholesale-create)"
+provides_tools:
+  - android_sms_list
+  - android_sms_send
