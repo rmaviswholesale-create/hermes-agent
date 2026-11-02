@@ -1,0 +1,6 @@
+name: planning-files
+version: "0.1.0"
+description: "Planning with files: keeps task_plan.md, findings.md and progress.md in the working directory and re-injects them into every turn (pre_llm_call), so long sessions cannot drift off the plan. Pattern from OthmanAdi/planning-with-files (MIT); Hermes-native port. Injects only when task_plan.md exists; the system prompt is never touched, so prompt caching is unaffected. /planfiles init|status|off|on."
+author: "OthmanAdi (pattern, MIT) / Hermes plugin port"
+provides_hooks:
+  - pre_llm_call

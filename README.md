@@ -216,6 +216,16 @@ What gets imported from OpenClaw:
 
 ---
 
+## Skill pack (fork extras)
+
+`deploy/skill-pack/install.sh` adds six community skills in one go: planning-with-files
+(re-injected `task_plan.md` / `findings.md` / `progress.md`), a multi-CLI delegation orchestrator,
+RTK terminal-output filtering, Google Mantis security audits on cron, skill retrieval (top-K skills
+instead of the full list), and opt-in Agent Reach. Sources, risks and running on a 16 GB T4 GPU:
+[deploy/skill-pack/README.md](deploy/skill-pack/README.md).
+
+---
+
 ## Contributing
 
 We welcome contributions! See the [Contributing Guide](https://hermes-agent.nousresearch.com/docs/developer-guide/contributing) for development setup, code style, and PR process.
