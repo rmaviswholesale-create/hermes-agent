@@ -1,0 +1,8 @@
+name: android-calls
+version: 0.1.0
+description: "Call log, contact lookup and click-to-dial for your Android phone through Termux:API over SSH. Dialing is off until HERMES_ANDROID_ALLOW_SEND=1 and is audited."
+author: "Rico (@rmaviswholesale-create)"
+provides_tools:
+  - android_call_log
+  - android_contacts_search
+  - android_call_dial
